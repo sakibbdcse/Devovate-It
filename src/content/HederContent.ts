@@ -2,7 +2,7 @@ const HederContent = {
   header: {
     title: "Devovate IT",
     description: "Your partner in innovative software solutions.",
-    logo: "/public/assets/images/logo.png",
+    logo: "/assets/images/logo.png",
   },
   menu: [
     { name: "All Products", url: "/" },
