@@ -1,5 +1,13 @@
+import Menu from "./Menu";
+import NavTopBar from "./NavTopBar";
+
 const Heder = () => {
-  return <div>Heder</div>;
+  return (
+    <>
+      <NavTopBar />
+      <Menu />
+    </>
+  );
 };
 
 export default Heder;
