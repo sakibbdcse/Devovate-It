@@ -2,7 +2,7 @@ import "./hero.css";
 const Hero = () => {
   return (
     <>
-      <div className="py_100 banner_height banner">
+      <div className="py-5 banner_height banner">
         <div className="container">
           <div className="row align-items-center">
             <div className="col-xl-6">
