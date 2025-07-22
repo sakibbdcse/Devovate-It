@@ -1,6 +1,7 @@
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SectionDivider from "../Common/SectionDivider";
+// import "swiper/swiper.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
