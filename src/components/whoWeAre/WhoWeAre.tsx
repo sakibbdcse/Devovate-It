@@ -22,11 +22,7 @@ const WhoWeAre = () => {
               empower your journey with innovative technology — and grow
               together in success
             </p>
-            <Link
-              to="/"
-              target="_blank"
-              className="btn btn-primary px-4 py-3 wow fadeInUp"
-            >
+            <Link to="/" target="_blank" className="btn btn-primary px-3 py-2">
               More About Us
             </Link>
           </div>
