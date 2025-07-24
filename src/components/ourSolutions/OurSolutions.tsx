@@ -43,7 +43,7 @@ const OurSolutions = () => {
                     >
                       <div className="d-block">
                         <img
-                          src="/public/assets/images/Sales-ERP.webp"
+                          src="/assets/images/Sales-ERP.webp"
                           className="product_icon"
                           alt="ERP"
                         />
