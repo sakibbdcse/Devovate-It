@@ -1,0 +1,33 @@
+.product_pills.nav-pills .nav-link.active {
+  color: #ffffff;
+  background-color: #090a4c;
+}
+.product_pills.nav-pills .nav-link {
+  font-weight: 300;
+  padding: 0.5rem 1.2rem;
+  color: #090a4c;
+  font-size: 16px;
+  border: 1px solid #d4ecd4;
+  margin: 5px;
+  background: #d4ecd4;
+  line-height: 30px;
+}
+.product_link {
+  text-decoration: none;
+  color: #090a4c;
+}
+.product_link:focus,
+.product_link:hover {
+  color: #090a4c;
+}
+.bg_grad {
+  background-image: linear-gradient(
+    to right top,
+    #f3f2ff,
+    #e9f7ff,
+    #e2fcff,
+    #e4fff7,
+    #f1ffeb
+  );
+  background-image: linear-gradient(to right top, #cbedee, #f3f2f3);
+}
