@@ -170,8 +170,11 @@ const Footer = () => {
       </footer>
       <div className="py-3 midSaleBg">
         <div className="container">
-          <div className="align-items-center justify-content-center row text-white">
-            {new Date().getFullYear()} © All Rights Reserved by Devovate IT
+          <div className="text-center text-white">
+            {new Date().getFullYear()} © All Rights Reserved by{" "}
+            <Link to="/" target="_blank" className="btn btn-sm btn-warning">
+              Devovate IT
+            </Link>
           </div>
         </div>
       </div>
