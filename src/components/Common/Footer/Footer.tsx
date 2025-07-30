@@ -112,7 +112,6 @@ const Footer = () => {
                         ["Blog", "/"],
                         ["Career - We Are Hiring", "/"],
                         ["Terms of Use", "/"],
-                        ["Terms of Use (বাংলা)", "/"],
                         ["Privacy Policy", "/"],
                         ["Copyright", "/"],
                         ["Client List", "/"],
