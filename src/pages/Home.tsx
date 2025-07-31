@@ -1,3 +1,4 @@
+import GlobalClients from "../components/globalClients/GlobalClients";
 import Hero from "../components/hero/Hero";
 import OurService from "../components/ourService/OurService";
 import OurSolutions from "../components/ourSolutions/OurSolutions";
@@ -12,6 +13,7 @@ const Home = () => {
       <WhoWeAre />
       <OurSolutions />
       <OurService />
+      <GlobalClients />
     </>
   );
 };
