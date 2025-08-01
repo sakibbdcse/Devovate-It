@@ -110,11 +110,9 @@ const Footer = () => {
                       links: [
                         ["About Us", "/"],
                         ["Blog", "/"],
-                        ["Career - We Are Hiring", "/"],
+                        ["Career", "/"],
                         ["Terms of Use", "/"],
                         ["Privacy Policy", "/"],
-                        ["Client List", "/"],
-                        ["Affiliate Disclosure", "/"],
                       ],
                     },
                     {
