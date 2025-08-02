@@ -28,7 +28,7 @@ const WhoWeAre = () => {
           </div>
           <div className="col-lg-6 offset-lg-1">
             <img
-              src="/assets/images/who-we-are.webp"
+              src="/assets/images/who-we-are.png"
               alt="Devovat IT Who We Are"
               className="img-fluid wow fadeInLeft mt-5 mt-lg-0"
             />

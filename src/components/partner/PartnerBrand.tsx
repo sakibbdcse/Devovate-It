@@ -1,69 +1,32 @@
 import { Autoplay, Pagination } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import SectionDivider from "../Common/SectionDivider";
-// import "swiper/swiper.css";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
-
+import Partners from "../../content/Partner";
+import "./partnerBrand.css";
+import { Link } from "react-router-dom";
 const PartnerBrand = () => {
   const swiperParams = {
-    slidesPerView: 3,
-    spaceBetween: 30,
+    slidesPerView: 5,
+    spaceBetween: 20,
     pagination: {
       clickable: true,
       dynamicBullets: true,
     },
     autoplay: {
-      delay: 3000, // 3 seconds between slides
-      disableOnInteraction: false, // continue autoplay after user interaction
-      pauseOnMouseEnter: true, // pause on hover
+      delay: 1000,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
     },
-    loop: true, // enable infinite loop
+    loop: true,
     breakpoints: {
       320: { slidesPerView: 1, spaceBetween: 20 },
       768: { slidesPerView: 2, spaceBetween: 30 },
       1024: { slidesPerView: 3, spaceBetween: 40 },
     },
   };
-
-  const partners = [
-    {
-      id: 1,
-      name: "Partner 1",
-      logo: "/assets/images/devovat-It-logo.png", // Removed /public as Vite serves from /assets directly
-    },
-    {
-      id: 2,
-      name: "Partner 2",
-      logo: "/assets/images/devovat-It-logo.png",
-    },
-    {
-      id: 2,
-      name: "Partner 2",
-      logo: "/assets/images/devovat-It-logo.png",
-    },
-    {
-      id: 2,
-      name: "Partner 2",
-      logo: "/assets/images/devovat-It-logo.png",
-    },
-    {
-      id: 2,
-      name: "Partner 2",
-      logo: "/assets/images/devovat-It-logo.png",
-    },
-    {
-      id: 2,
-      name: "Partner 2",
-      logo: "/assets/images/devovat-It-logo.png",
-    },
-    {
-      id: 2,
-      name: "Partner 2",
-      logo: "/assets/images/devovat-It-logo.png",
-    },
-  ];
 
   return (
     <section className="partner-section py-5 bg-light">
@@ -78,21 +41,21 @@ const PartnerBrand = () => {
           modules={[Pagination, Autoplay]}
           className="partner-swiper py-4"
         >
-          {partners.map((partner) => (
+          {Partners.map((partner) => (
             <SwiperSlide key={partner.id}>
-              <div className="partner-card h-100 d-flex align-items-center justify-content-center p-3 bg-white rounded-3 shadow-sm">
-                <img
-                  src={partner.logo}
-                  alt={partner.name}
-                  className="img-fluid"
-                  style={{ maxHeight: "100px", objectFit: "contain" }}
-                  onError={(e) => {
-                    (e.target as HTMLImageElement).src =
-                      "/assets/images/default-logo.png";
-                    (e.target as HTMLImageElement).style.opacity = "0.7";
-                  }}
-                  loading="lazy"
-                />
+              <div className="partner-card d-flex align-items-center justify-content-center p-3 bg-white rounded-3 shadow-sm">
+                <Link
+                  to={partner.link || "#"}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src={partner.logo}
+                    alt={partner.name}
+                    className="img-fluid partner-logo"
+                    loading="lazy"
+                  />
+                </Link>
               </div>
             </SwiperSlide>
           ))}
