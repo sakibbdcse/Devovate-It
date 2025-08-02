@@ -11,7 +11,7 @@ const GlobalClients = () => {
         <div className="row">
           <div className="col-md-12">
             <img
-              src="/public/assets/images/davovatIT.png"
+              src="/assets/images/davovatIT.png"
               className="img-fluid"
               alt="Client Map"
             />

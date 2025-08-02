@@ -62,7 +62,19 @@ const Footer = () => {
                     <p className="text-muted fw-bold mb-2">Office Locations</p>
                   </li>
                   <li className="nav-item">
-                    <p className="text-muted mb-4">{FooterContent.location}</p>
+                    <p className="text-muted mb-2">{FooterContent.location}</p>
+                  </li>
+                  <li className="nav-item">
+                    <p className="text-muted fw-bold mb-1">Email</p>
+                  </li>
+                  <li className="nav-item">
+                    <p className="text-muted mb-1">{FooterContent.email}</p>
+                  </li>
+                  <li className="nav-item">
+                    <p className="text-muted fw-bold mb-1">Phone</p>
+                  </li>
+                  <li className="nav-item">
+                    <p className="text-muted mb-1">{FooterContent.phone}</p>
                   </li>
                 </ul>
               </div>
@@ -72,7 +84,7 @@ const Footer = () => {
                 <ul className="nav flex-column">
                   <li className="nav-item mb-4">
                     <span className="d-block footer-title fs-17 pb-2 text-white">
-                      Phone
+                      Contact Info
                     </span>
                   </li>
                 </ul>
@@ -82,8 +94,8 @@ const Footer = () => {
                       <li className="nav-item">
                         {FooterContent.contact.map((contact, index) => (
                           <p className="text-muted" key={index}>
-                            {contact.name} - {contact.designation} -{" "}
-                            {contact.email} - {contact.phone}
+                            {contact.name} - {contact.designation}{" "}
+                            {contact.email} {contact.phone}
                           </p>
                         ))}
                       </li>
@@ -91,10 +103,7 @@ const Footer = () => {
                   </div>
                   <div className="col-6">
                     <ul className="nav">
-                      <li className="nav-item">
-                        <p className="text-muted mb-2">Office Reception:</p>
-                        <p className="text-muted">028394344</p>
-                      </li>
+                      <li className="nav-item"></li>
                     </ul>
                   </div>
                 </div>

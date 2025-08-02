@@ -1,20 +1,22 @@
 import { FaFacebook, FaInstagram, FaTwitter } from "react-icons/fa";
 
 const FooterContent = {
-  logo: "/assets/images/logo.png",
+  logo: "/assets/images/foooter-logo.png",
   location: "Uttara, Dhaka, Bangladesh",
+  email: "devovateit@gmail.com",
+  phone: "+880 123 456 7890",
   contact: [
     {
       name: "Motalab",
       designation: "CEO",
-      email: "@devovateit.com",
+      email: "ceo.motalab@devovateit.com",
       phone: "+880 123 456 7890",
     },
     {
-      name: "Motalab",
-      designation: "CEO",
-      email: "@devovateit.com",
-      phone: "+880 123 456 7890",
+      name: "Sakib",
+      designation: "Full Stack Developer",
+      email: "dev.sakib@devovateit.com",
+      phone: "+880 176 619 5363",
     },
   ],
   socialLinks: [
