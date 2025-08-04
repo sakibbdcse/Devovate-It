@@ -7,12 +7,7 @@ const NavTopBar = () => {
         <span className="me-2">
           Save Extra Cost &amp; Increase Your Business
         </span>{" "}
-        <Link
-          to="/"
-          target="_blank"
-          className="btn btn-sm btn-warning"
-          // style="white-space: nowrap;"
-        >
+        <Link to="/" target="_blank" className="btn btn-sm btn-warning">
           Grab it now
         </Link>
       </div>
