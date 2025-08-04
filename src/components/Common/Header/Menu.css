@@ -1,19 +1,50 @@
-/* Menu.css */
 .bm-burger-button {
-  display: none !important;
+  width: 36px;
+  height: 30px;
+  right: 36px;
+  top: 36px;
 }
 
-.bm-menu {
-  background: #fff;
+.bm-burger-bars {
+  background: #373a47;
+}
+
+.bm-burger-bars-hover {
+  background: #090a4c;
+}
+
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.bm-cross {
+  background: #ff0202;
+}
+.bm-menu-wrap {
+  position: fixed;
+  height: 100%;
+}
+
+#burger-menu .bm-menu {
+  background: #373a47;
   padding: 2.5em 1.5em 0;
-  font-size: 1.2em;
+  font-size: 1.15em;
+}
+.berger-menu-customs {
+  top: 0 !important;
+}
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+.bm-item-list {
+  color: #b8b7ad;
+  padding: 0.8em;
 }
 
 .bm-item {
   display: inline-block;
-  text-decoration: none;
-  margin-bottom: 10px;
-  color: #333;
 }
 
 .bm-overlay {
