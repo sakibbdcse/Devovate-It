@@ -1,0 +1,21 @@
+/* Menu.css */
+.bm-burger-button {
+  display: none !important;
+}
+
+.bm-menu {
+  background: #fff;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.2em;
+}
+
+.bm-item {
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
