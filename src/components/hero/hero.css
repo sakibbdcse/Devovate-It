@@ -11,7 +11,7 @@
   background-size: 200% auto;
   color: #fff;
   background-clip: text;
-  text-fill-color: transparent;
+  /* text-fill-color: transparent; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: textanim 2s linear infinite;
@@ -116,5 +116,18 @@
 
   50% {
     transform: translateY(25px);
+  }
+}
+@media screen and (max-width: 500px) {
+  .banner_experience {
+    left: -0px;
+  }
+  .banner_shape {
+    right: -20px;
+    top: -10px;
+  }
+  .play_button {
+    width: 80px;
+    height: 80px;
   }
 }
