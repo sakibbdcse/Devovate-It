@@ -5,7 +5,8 @@ const HederContent = {
     logo: "/assets/images/logo.png",
   },
   menu: [
-    { name: "All Products", url: "/" },
+    { name: "Home", url: "/" },
+    { name: "Our Products", url: "/" },
     { name: "Mobile Apps", url: "/mobile-apps" },
     { name: "Service", url: "/service" },
     { name: "Blog", url: "/blog" },

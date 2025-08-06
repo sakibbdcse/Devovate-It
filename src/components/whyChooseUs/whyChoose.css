@@ -1,0 +1,8 @@
+.logo_box {
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+  min-height: 150px;
+}
+.logo_box:nth-child(6n) {
+  border-right: 0;
+}

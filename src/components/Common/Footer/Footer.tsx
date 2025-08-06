@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import "./footer.css";
 import FooterContent from "../../../content/FooterContent";
+import { IoIosSend } from "react-icons/io";
 const Footer = () => {
   return (
     <>
@@ -110,14 +111,25 @@ const Footer = () => {
               </div>
             </div>
             <div className="row py-5 d-none d-xl-flex">
-              <div className="col-md-3 text-muted">subcriptions</div>
+              <div className="col-md-3 text-muted">
+                <span className="footer-title text-white">Subscriptions</span>
+                <form>
+                  <input type="email" />
+                  <button type="submit">
+                    <IoIosSend
+                      size={25}
+                      className="text-white cursor-pointer"
+                    />
+                  </button>
+                </form>
+              </div>
               <div className="col-lg-8 offset-lg-1">
                 <div className="row">
                   {[
                     {
                       title: "Useful Links",
                       links: [
-                        ["About Us", "/"],
+                        ["About Us", "/about-us"],
                         ["Blog", "/"],
                         ["Career", "/"],
                         ["Terms of Use", "/"],
@@ -153,15 +165,13 @@ const Footer = () => {
                         </li>
                         {section.links.map(([label, href], j) => (
                           <li className="nav-item" key={j}>
-                            <a
-                              href={href}
-                              target="_blank"
-                              rel="noreferrer"
+                            <Link
+                              to={href}
                               className="text-decoration-none text-muted lh-30"
                             >
                               <span className="arrow me-2">→</span>
                               {label}
-                            </a>
+                            </Link>
                           </li>
                         ))}
                       </ul>
