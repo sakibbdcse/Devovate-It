@@ -9,7 +9,6 @@ const HederContent = {
     { name: "Our Products", url: "/" },
     { name: "Mobile Apps", url: "/mobile-apps" },
     { name: "Service", url: "/service" },
-    { name: "Blog", url: "/blog" },
     { name: "Contact Us", url: "/contact-us" },
   ],
   footer: {

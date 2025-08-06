@@ -8,7 +8,7 @@ const NavMenu = () => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="container-lg">
+    <div className="container-lg my-3">
       <header className="d-flex flex-wrap justify-content-center align-items-center">
         <Link
           to="/"
@@ -35,6 +35,9 @@ const NavMenu = () => {
               </Link>
             </li>
           ))}
+          <Link target="_blank" className="btn btn-sm btn-primary" to="http://">
+            Book Appointment
+          </Link>
         </ul>
 
         <div className="d-block d-lg-none align-items-center position-relative">
