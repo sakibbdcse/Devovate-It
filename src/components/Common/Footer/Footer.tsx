@@ -114,14 +114,38 @@ const Footer = () => {
               <div className="col-md-3 text-muted">
                 <span className="footer-title text-white">Subscriptions</span>
                 <form>
-                  <input type="email" />
-                  <button type="submit">
+                  <input
+                    type="email"
+                    className="text-white input-bg border-radius-left py02"
+                  />
+                  <button
+                    type="submit"
+                    style={{ border: "none" }}
+                    className="bg-warning border-radius-right py-1 border-none"
+                  >
                     <IoIosSend
-                      size={25}
-                      className="text-white cursor-pointer"
+                      size={24}
+                      className="text-black cursor-pointer"
                     />
                   </button>
                 </form>
+                <strong className="block text-white mt-3">Download App</strong>
+                <div className="list-download d-flex items-start gap-2 mt-2">
+                  <Link className="cursor-pointer" to="/">
+                    <img
+                      className="cursor-pointer"
+                      src="/assets/images/gg_play.png"
+                      alt="Google Play"
+                    />
+                  </Link>
+                  <Link className="cursor-pointer" to="/">
+                    <img
+                      className="cursor-pointer"
+                      src="/assets/images/app_store.png"
+                      alt="App Store"
+                    />
+                  </Link>
+                </div>
               </div>
               <div className="col-lg-8 offset-lg-1">
                 <div className="row">
