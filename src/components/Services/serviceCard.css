@@ -1,0 +1,93 @@
+.gray-bg-4 {
+  background: #f4f5f8 !important;
+}
+.trans03 {
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.text-gray {
+  color: #5f6168;
+}
+.br-8 {
+  border-radius: 8px;
+}
+.service-icon-span {
+  background: #eeedfb;
+  height: 70px;
+  width: 70px;
+  display: block;
+  border-radius: 50px;
+  line-height: 70px;
+  text-align: center;
+}
+.gray-bg-4::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #2e0797 0%, #726efc 100%);
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.gray-bg-4:hover:after {
+  width: 100%;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.gray-bg-4::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: #5038c9;
+  z-index: -1;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.service-icon-span:hover::after {
+  width: 100%;
+}
+.service-icon-span:hover .service-icon-span {
+  color: white;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.service-icon-span:hover .service-icon-span p {
+  color: white;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.readmore {
+  color: white;
+}
+.readmore span i {
+  transform: rotate(-45deg);
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
