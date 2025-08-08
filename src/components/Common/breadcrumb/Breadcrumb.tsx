@@ -48,14 +48,14 @@ const Breadcrumb = () => {
                 <div>
                   <img
                     className="w-100 breadcrumb-fan position-absolute"
-                    src="/public/assets/images/fan-sm-shape-middle.svg"
+                    src="/assets/images/fan-sm-shape-middle.svg"
                     alt=""
                   />
                 </div>
                 <div>
                   <img
                     className="breadcrumb-img position-absolute bottom-0"
-                    src="/public/assets/images/Bradcump-image.png"
+                    src="/assets/images/Bradcump-image.png"
                     alt=""
                   />
                 </div>
