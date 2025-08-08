@@ -1,6 +1,6 @@
 import { useState } from "react";
 import SectionDivider from "../Common/SectionDivider";
-import Services from "../../content/Services";
+import Services from "../../content/ServicesContent";
 import ServiceCard from "../Common/ServiceCard";
 
 const OurService = () => {

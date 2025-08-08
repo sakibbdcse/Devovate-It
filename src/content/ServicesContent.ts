@@ -1,4 +1,4 @@
-const Services = [
+const ServicesContent = [
   {
     title: "Custom Website Development",
     description:
@@ -43,4 +43,4 @@ const Services = [
   },
 ];
 
-export default Services;
+export default ServicesContent;
