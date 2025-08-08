@@ -1,6 +1,27 @@
 .gray-bg-4 {
   background: #f4f5f8 !important;
 }
+.gray-bg-4::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #090a4c 0%, #726efc 100%);
+  z-index: -1 !important;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+.gray-bg-4:hover:after {
+  width: 100%;
+}
+.gray-bg-4:hover .text-gray {
+  color: white;
+}
 .trans03 {
   -webkit-transition: 0.3s;
   -moz-transition: 0.3s;
@@ -23,71 +44,6 @@
   line-height: 70px;
   text-align: center;
 }
-.gray-bg-4::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 0;
-  background: linear-gradient(90deg, #2e0797 0%, #726efc 100%);
-  z-index: -1;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.gray-bg-4:hover:after {
-  width: 100%;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.gray-bg-4::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 0;
-  background: #5038c9;
-  z-index: -1;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.service-icon-span:hover::after {
-  width: 100%;
-}
-.service-icon-span:hover .service-icon-span {
-  color: white;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.service-icon-span:hover .service-icon-span p {
-  color: white;
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
-}
-.readmore {
-  color: white;
-}
-.readmore span i {
-  transform: rotate(-45deg);
-  -webkit-transition: 0.3s;
-  -moz-transition: 0.3s;
-  -ms-transition: 0.3s;
-  -o-transition: 0.3s;
-  transition: 0.3s;
+.gray-bg-4:hover .service-icon-span {
+  transform: rotateY(180deg);
 }

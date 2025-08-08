@@ -1,0 +1,51 @@
+.breadcrumb-bg {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.text-decoration-none {
+  text-decoration: none;
+}
+.shape-right {
+  right: 90px;
+  top: 40px;
+  animation: bounce-anim 5s linear infinite;
+}
+.shape-left {
+  top: 0;
+  animation: bounce-anim 5s linear infinite;
+}
+.breadcrumb-fan {
+  height: 300px;
+  top: -90px;
+  animation: spain-anim 10s linear infinite;
+}
+.breadcrumb-img {
+  margin: 0 auto;
+  top: -120px;
+  left: 0;
+  right: 0;
+}
+.py-6 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+@keyframes bounce-anim {
+  0% {
+    transform: translateY(-20%);
+  }
+  50% {
+    transform: translateY(20%);
+  }
+  100% {
+    transform: translateY(-20%);
+  }
+}
+@keyframes spain-anim {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
