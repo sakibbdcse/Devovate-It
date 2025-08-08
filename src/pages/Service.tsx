@@ -9,7 +9,11 @@ import Cta from "../components/Common/cta/Cta";
 const Service = () => {
   return (
     <>
-      <Breadcrumb />
+      <Breadcrumb
+        pageTitle="Our Service"
+        pageName="Service"
+        pageUrl="/service"
+      />
       <SectionDivider
         sectionName="Our Service"
         sectionSlug="We happy to provide our it services and happy client"

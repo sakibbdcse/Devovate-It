@@ -1,7 +1,12 @@
 import { IoIosArrowForward } from "react-icons/io";
 import { Link } from "react-router-dom";
 import "./Breadcrumb.css";
-const Breadcrumb = () => {
+type breadcrumbProps = {
+  pageTitle: string;
+  pageName: string;
+  pageUrl: string;
+};
+const Breadcrumb = ({ pageTitle, pageName, pageUrl }: breadcrumbProps) => {
   return (
     <>
       <div
@@ -15,14 +20,17 @@ const Breadcrumb = () => {
           <div className="row">
             <div className="col-xl-6 col-md-6 mb-3">
               <div className="mt-5">
-                <h1 className="fs-2 text-white">Our Service</h1>
+                <h1 className="fs-2 text-white">{pageTitle}</h1>
                 <div>
                   <Link className="text-white fs-6 text-decoration-none" to="/">
                     Home
                   </Link>
                   <IoIosArrowForward className="text-white" />
-                  <Link className="text-white fs-6 text-decoration-none" to="/">
-                    Our Service
+                  <Link
+                    className="text-white fs-6 text-decoration-none"
+                    to={pageUrl}
+                  >
+                    {pageName}
                   </Link>
                 </div>
               </div>

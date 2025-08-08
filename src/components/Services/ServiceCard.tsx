@@ -16,7 +16,7 @@ const ServiceCard = ({
   return (
     <>
       <div className="col-lg-4 col-md-6 cursor-pointer mb-5">
-        <div className="gray-bg-4 text-muted bg-white py-3 px-4 position-relative z-1 overflow-hidden br-8 h-100 flex-column d-flex">
+        <div className="gray-bg service-card-hover text-muted bg-white py-3 px-4 position-relative z-1 overflow-hidden br-8 h-100 flex-column d-flex">
           <div>
             <span className="service-icon-span trans03">
               <img

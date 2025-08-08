@@ -1,7 +1,7 @@
-.gray-bg-4 {
+.gray-bg {
   background: #f4f5f8 !important;
 }
-.gray-bg-4::after {
+.service-card-hover::after {
   position: absolute;
   content: "";
   left: 0;
@@ -16,10 +16,10 @@
   -o-transition: 0.3s;
   transition: 0.3s;
 }
-.gray-bg-4:hover:after {
+.service-card-hover:hover:after {
   width: 100%;
 }
-.gray-bg-4:hover .text-gray {
+.service-card-hover:hover .text-gray {
   color: white;
 }
 .trans03 {
@@ -44,6 +44,6 @@
   line-height: 70px;
   text-align: center;
 }
-.gray-bg-4:hover .service-icon-span {
+.service-card-hover:hover .service-icon-span {
   transform: rotateY(180deg);
 }
