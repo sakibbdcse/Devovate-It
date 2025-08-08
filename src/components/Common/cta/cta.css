@@ -1,0 +1,68 @@
+.cta-bg {
+  background-color: #090a4c;
+  padding: 0;
+  padding-left: 80px;
+  padding-top: 70px;
+  padding-bottom: 40px;
+}
+.cta-shape {
+  left: 56%;
+  top: 90px;
+  animation: bounce-anim 5s linear infinite;
+}
+.cta-mail input[type="email"] {
+  border-radius: 50px;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="password"],
+input[type="url"],
+textarea {
+  outline: none;
+  border: inherit;
+}
+.cta-mail-btn {
+  position: absolute;
+  top: 6px;
+  right: 6px;
+}
+.subscribe-btn {
+  background: linear-gradient(90deg, #726efc 0%, #2e0797 100%);
+  -webkit-text-fill-color: inherit;
+  font-size: 16px;
+  line-height: 16px;
+  font-weight: 700;
+  position: relative;
+  padding: 5px 5px 5px 17px;
+  display: inline-block;
+  border: none;
+  outline: none;
+  border-radius: 0;
+}
+.subscriptions-img {
+  right: 50px;
+  top: -36px;
+}
+.subscriptions-shape {
+  right: -48px;
+  top: 40px;
+  z-index: -1;
+}
+.btn-icon {
+  background: linear-gradient(
+    90deg,
+    rgb(235, 232, 246) 0%,
+    rgb(240, 239, 253) 100%
+  );
+  color: black;
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50px;
+  font-size: 15px;
+  margin-left: 6px;
+  transition: 0.3s;
+}

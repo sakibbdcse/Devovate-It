@@ -2,6 +2,9 @@ import Breadcrumb from "../components/Common/breadcrumb/Breadcrumb";
 import SectionDivider from "../components/Common/SectionDivider";
 import ServiceCard from "../components/Services/ServiceCard";
 import ServicesContent from "../content/ServicesContent";
+import WhyChooseUs from "../components/whyChooseUs/WhyChooseUs";
+import WhoWeAre from "../components/whoWeAre/WhoWeAre";
+import Cta from "../components/Common/cta/Cta";
 
 const Service = () => {
   return (
@@ -24,6 +27,9 @@ const Service = () => {
           ))}
         </div>
       </div>
+      <WhoWeAre />
+      <WhyChooseUs />
+      <Cta />
     </>
   );
 };
