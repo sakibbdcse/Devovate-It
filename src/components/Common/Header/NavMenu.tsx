@@ -54,7 +54,7 @@ const NavMenu = () => {
               <Link
                 key={index}
                 to={data.url}
-                className={`menu-item ${
+                className={`menu-item nav-link cursor-pointer mt-2 text-center text-white ${
                   location.pathname === data.url ? "active" : ""
                 }`}
                 onClick={() => setIsOpen(false)}
@@ -62,6 +62,13 @@ const NavMenu = () => {
                 {data.name}
               </Link>
             ))}
+            <Link
+              target="_blank"
+              className="btn btn-sm btn-primary mt-1"
+              to="http://"
+            >
+              Book Appointment
+            </Link>
           </Menu>
         </div>
       </header>

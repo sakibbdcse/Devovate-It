@@ -66,3 +66,53 @@ textarea {
   margin-left: 6px;
   transition: 0.3s;
 }
+@media screen and (max-width: 790px) {
+  .cta-bg {
+    padding-right: 0;
+    padding-left: 60px;
+    padding-bottom: 0;
+  }
+  .cta-mail {
+    margin-right: 80px;
+  }
+  .cta-mail-btn {
+    position: relative;
+    right: inherit;
+    top: 10px;
+  }
+  .cta-mob-image {
+    height: 350px;
+  }
+  .subscriptions-img {
+    top: 10%;
+    left: 15%;
+  }
+  .subscriptions-shape {
+    left: 10%;
+    top: 47%;
+  }
+  .cta-shape {
+    left: 68%;
+    top: 45%;
+  }
+  .subscribe-btn {
+    padding: 14px 5px 9px 17px;
+  }
+}
+@media screen and (max-width: 520px) {
+  .subscriptions-img {
+    left: -10%;
+  }
+  .subscriptions-shape {
+    left: -22%;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .subscriptions-img {
+    left: -22%;
+  }
+  .subscriptions-shape {
+    left: -34%;
+  }
+}

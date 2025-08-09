@@ -11,7 +11,7 @@ const Cta = () => {
             alt=""
           />
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 col-md-12">
               <div className="mb-3">
                 <h2 className="fs-3 fw-bold lh-sm text-white pb-2">
                   Grownup Your Business Contact Us Today
@@ -39,8 +39,8 @@ const Cta = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6">
-              <div className="position-relative z-1">
+            <div className="col-lg-6 col-md-12">
+              <div className="position-relative cta-mob-image z-1">
                 <img
                   className="subscriptions-img position-absolute"
                   src="/assets/images/subcriptions-img.png"
