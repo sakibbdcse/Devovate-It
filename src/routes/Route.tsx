@@ -4,6 +4,7 @@ import PrimaryLayout from "../layout/PrimaryLayout";
 import About from "../pages/About";
 import Service from "../pages/Service";
 import ContactUs from "../pages/ContactUs";
+import NotFound from "../pages/NotFound";
 
 const Route = createBrowserRouter([
   {
@@ -23,6 +24,7 @@ const Route = createBrowserRouter([
         path: "contact-us",
         element: <ContactUs />,
       },
+      { path: "*", element: <NotFound /> },
     ],
   },
 ]);
