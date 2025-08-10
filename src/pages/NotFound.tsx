@@ -14,7 +14,7 @@ const NotFound = () => {
               <div className="pb-4">
                 <img
                   className="w-100 align-middle"
-                  src="/public/assets/images/error-404.png"
+                  src="/assets/images/error-404.png"
                   alt=""
                 />
               </div>
