@@ -155,6 +155,7 @@ const Footer = () => {
                       links: [
                         ["About Us", "/about-us"],
                         ["Blog", "/"],
+                        ["faq", "/faq"],
                         ["Career", "/"],
                         ["Terms of Use", "/"],
                         ["Privacy Policy", "/"],
