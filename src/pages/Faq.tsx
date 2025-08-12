@@ -1,4 +1,5 @@
 import Breadcrumb from "../components/Common/breadcrumb/Breadcrumb";
+import Cta from "../components/Common/cta/Cta";
 
 const Faq = () => {
   return (
@@ -8,6 +9,7 @@ const Faq = () => {
         pageName="faq"
         pageUrl="/faq"
       />
+      <Cta />
     </>
   );
 };
