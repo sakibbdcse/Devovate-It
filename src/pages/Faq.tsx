@@ -1,6 +1,6 @@
 import Breadcrumb from "../components/Common/breadcrumb/Breadcrumb";
 import Cta from "../components/Common/cta/Cta";
-import Faq_top from "../components/faq/Faq_top";
+import FaqTop from "../components/faq/FaqTop";
 
 const Faq = () => {
   return (
@@ -13,7 +13,7 @@ const Faq = () => {
       <div className="container">
         <h1 className="text-center">Frequently Asked Questions</h1>
         <div className="row">
-          <Faq_top />
+          <FaqTop />
         </div>
       </div>
       <Cta />
