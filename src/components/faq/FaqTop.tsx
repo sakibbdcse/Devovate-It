@@ -2,7 +2,7 @@ import "./faqTop.css";
 const FaqTop = () => {
   return (
     <>
-      <div className="col-lg-8 mx-auto text-center">
+      <div className="col-lg-10 mx-auto text-center">
         <div className="mb-4">
           <ul className="nav d-inline-block faq-top-ul br-8">
             <li className="d-inline-block mr-1 py-1 px-1" role="presentation">
@@ -18,7 +18,7 @@ const FaqTop = () => {
                 className="nav-link bg-body-secondary py-1 px-3 overflow-hidden fw-medium text-color-theme rounded-2"
                 type="button"
               >
-                It Service
+                Full-Stack Developer
               </button>
             </li>
             <li className="d-inline-block mr-1" role="presentation">
@@ -26,7 +26,7 @@ const FaqTop = () => {
                 className="nav-link bg-body-secondary py-1 px-3 overflow-hidden fw-medium text-color-theme rounded-2"
                 type="button"
               >
-                Technology
+                Web Design
               </button>
             </li>
 
@@ -35,7 +35,7 @@ const FaqTop = () => {
                 className="nav-link bg-body-secondary py-1 px-3 overflow-hidden fw-medium text-color-theme rounded-2 active"
                 type="button"
               >
-                Cyber security
+                Web Developer
               </button>
             </li>
             <li className="d-inline-block mr-1" role="presentation">
@@ -43,7 +43,7 @@ const FaqTop = () => {
                 className="nav-link bg-body-secondary py-1 px-3 overflow-hidden fw-medium text-color-theme rounded-2"
                 type="button"
               >
-                Tech Support
+                Graphics Designer
               </button>
             </li>
           </ul>
