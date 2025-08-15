@@ -28,19 +28,23 @@ const OursolutionsContent: OurSolutions = {
     { title: "Travel", id: "travel" },
   ],
   business: [
-    { icon: "", title: "", description: "" },
+    {
+      icon: "/assets/images/Sales-ERP.webp",
+      title: "ERP",
+      description: "lorem erjkerjkl; awjrkle ra kerlkw alejr",
+    },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
   ],
   health: [
-    { icon: "", title: "", description: "" },
+    { icon: "", title: "helth", description: "sfs sa;d; s; fsd s; d" },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
   ],
   education: [
-    { icon: "", title: "", description: "" },
+    { icon: "", title: "edu", description: "saer" },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
