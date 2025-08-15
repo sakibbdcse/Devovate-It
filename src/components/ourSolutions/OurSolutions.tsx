@@ -13,11 +13,7 @@ const OurSolutions = () => {
       />
       <div className="container">
         <div className="row">
-          <ul
-            className="justify-content-center mb-5 nav nav-pills product_pills"
-            id="pills-tab"
-            role="tablist"
-          >
+          <ul className="justify-content-center mb-5 nav nav-pills product_pills">
             {OursolutionsContent.solutions.map((data, index) => (
               <li key={index} className="nav-item" role="presentation">
                 <button
