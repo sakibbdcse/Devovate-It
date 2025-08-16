@@ -38,11 +38,9 @@ const OursolutionsContent: OurSolutions = {
       title: "Flight Booking",
       description: "Flight Booking Software",
     },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
   ],
   health: [
-    { icon: "", title: "helth", description: "sfs sa;d; s; fsd s; d" },
+    { icon: "", title: "Online Doctor", description: "Online Doctor check-up" },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
