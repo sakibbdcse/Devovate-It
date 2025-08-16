@@ -53,6 +53,7 @@ const OurSolutions = () => {
                           src={data.icon}
                           className="product_icon"
                           alt={data.title}
+                          style={{ height: "40px", width: "40px" }}
                         />
                       </div>
                       <div className="d-block ms-4">

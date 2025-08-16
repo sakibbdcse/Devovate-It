@@ -30,10 +30,14 @@ const OursolutionsContent: OurSolutions = {
   business: [
     {
       icon: "/assets/images/Sales-ERP.webp",
-      title: "ERP",
-      description: "lorem erjkerjkl; awjrkle ra kerlkw alejr",
+      title: "ERP Solutions",
+      description: "Streamline business operations with a unified ERP system",
     },
-    { icon: "", title: "", description: "" },
+    {
+      icon: "/assets/icon/jet.png",
+      title: "Flight Booking",
+      description: "Flight Booking Software",
+    },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
   ],
