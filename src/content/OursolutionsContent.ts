@@ -40,14 +40,21 @@ const OursolutionsContent: OurSolutions = {
     },
   ],
   health: [
-    { icon: "", title: "Online Doctor", description: "Online Doctor check-up" },
+    {
+      icon: "/assets/icon/doctor.png",
+      title: "Online Doctor",
+      description: "Online Doctor check-up",
+    },
     {
       icon: "/assets/icon/hospital.png",
       title: "Hospital Management",
       description: "Hospital management applications",
     },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
+    {
+      icon: "/assets/icon/hospital-location.png",
+      title: "Pharmacy",
+      description: "Pharmacy purses medicine online",
+    },
   ],
   education: [
     { icon: "", title: "edu", description: "saer" },
