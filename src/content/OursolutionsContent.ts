@@ -41,7 +41,11 @@ const OursolutionsContent: OurSolutions = {
   ],
   health: [
     { icon: "", title: "Online Doctor", description: "Online Doctor check-up" },
-    { icon: "", title: "", description: "" },
+    {
+      icon: "/assets/icon/hospital.png",
+      title: "Hospital Management",
+      description: "Hospital management applications",
+    },
     { icon: "", title: "", description: "" },
     { icon: "", title: "", description: "" },
   ],
