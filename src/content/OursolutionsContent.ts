@@ -14,7 +14,6 @@ type OurSolutions = {
   education: SolutionItem[];
   ecommerce: SolutionItem[];
   finance: SolutionItem[];
-  realEstate: SolutionItem[];
   travel: SolutionItem[];
 };
 const OursolutionsContent: OurSolutions = {
@@ -24,7 +23,6 @@ const OursolutionsContent: OurSolutions = {
     { title: "Education", id: "education" },
     { title: "E-commerce", id: "ecommerce" },
     { title: "Finance", id: "finance" },
-    { title: "Real Estate", id: "real-estate" },
     { title: "Travel", id: "travel" },
   ],
   business: [
@@ -56,29 +54,20 @@ const OursolutionsContent: OurSolutions = {
       description: "Pharmacy purses medicine online",
     },
   ],
-  education: [
-    { icon: "", title: "edu", description: "saer" },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
-  ],
+  education: [{ icon: "", title: "edu", description: "saer" }],
   ecommerce: [
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
+    {
+      icon: "/assets/icon/online-shop.png",
+      title: "Online shop",
+      description: "online shopping mall",
+    },
   ],
   finance: [
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
-  ],
-  realEstate: [
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
-    { icon: "", title: "", description: "" },
+    {
+      icon: "/assets/icon/money.png",
+      title: "Real State",
+      description: "Real State financial",
+    },
   ],
   travel: [
     { icon: "", title: "", description: "" },
